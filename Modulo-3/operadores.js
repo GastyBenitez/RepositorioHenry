@@ -13,3 +13,11 @@
 
 //console.log((3 + 5) * 2 - 8);
 
+// console.log('Hola ' + 'Camilo');
+
+// var nombre = 'camilo';
+// var saludo = 'hola ' + nombre;
+
+// console.log(saludo);
+
+
