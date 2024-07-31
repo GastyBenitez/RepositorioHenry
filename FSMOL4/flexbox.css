@@ -1,0 +1,111 @@
+
+/* . para seleccionar por clase
+
+   # para seleccionar por id
+
+   Los parametros que ingresamos se pisan y anulan el anterior
+
+   width = ANCHO que ocupa
+
+   em relacion de tamaño base, x cantidad de veces
+
+   vw viewport width porcentaje del ancho de la pantalla en la que lo veo
+
+   margin distancia de los bordes del elemento del elemento que lo rodea
+
+   margin: auto; se despega de forma proponcional para centrar un div
+
+   padding distancia del contenido 
+
+   width: fit-content; indica al elemento que se de a si mismo el ancho en base al tamaño
+
+   padding manual se define por orden ARRIBA-DERECHA-ABAJO-IZQUIERDA agujas del reloj
+
+   transition establece el tiempo de respuesta 
+
+   margin-top espacio superior
+
+   padding despego hacia adentro
+
+   display: flex; sigue logica de flex para posicionar posiciona en fila por defecto
+
+   justify-content: flex-start; nos permite pegar todos los elementos a la izquierda o al principio
+
+   justify-content: flex-end; nos permite pegar todos los elemntos a la derecha o al final
+
+   justify-content: space-around; nos permite separar los elementos con la misma distancia entre los bordes
+
+   justify-content: space-between; nos permite separar los elementos con la misma distancia entre si
+
+   justify-content: space-evenly; nos permite separar los elementos con la misma distancia entre el borde y el elemento que le sigue
+
+   gap espacio entre un elemento y otro  en columna
+
+   heigth altura 
+
+
+
+    */
+
+    body{
+        background-color: chocolate;
+    }
+    
+    /* h4{
+        background-color: brown;
+    } */
+    
+    
+    .title{
+        font-size: 2.8em;
+        color: crimson;
+    }
+    
+    .logo{
+        width: 300px;
+        height: 300px;
+    }
+
+    .cards{
+        border: 2px solid black;
+        width: fit-content;
+        padding: 1em 1em 2em 1em;
+        border-radius: 10%;
+        transition: 1s;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+    }
+
+    .cards:hover{
+        background-color: rgb(182, 138, 27);
+    }
+    
+    #principal{
+        font-size: 4.5em;
+    }
+
+    #titulos{
+        /* border: 2px solid black; */
+        width: 60vw;
+        margin: auto;
+        padding: 3em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #cards-container {
+        
+        width: 85vw;
+        margin: auto;
+        margin-top: 1.5em;
+        border: 5px solid rgb(139, 117, 117);
+        border-radius: 4%;
+        padding: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }

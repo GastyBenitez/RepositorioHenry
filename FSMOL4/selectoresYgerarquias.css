@@ -1,0 +1,30 @@
+
+/* . para seleccionar por clase
+   # para seleccionar por id
+   Los parametros que ingresamos se pisan y anulan el anterior
+   width = ANCHO que ocupa
+    */
+
+body{
+    background-color: chocolate;
+}
+
+/* h4{
+    background-color: brown;
+} */
+
+
+.title{
+    font-size: 40px;
+    color: crimson;
+}
+
+.logo{
+    width: 300px;
+}
+
+#principal{
+    font-size: 70px;
+}
+
+
